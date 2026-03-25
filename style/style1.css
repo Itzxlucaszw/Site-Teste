@@ -1,2 +1,29 @@
 @charset "UTF-8";
 
+
+*{
+    margin: 0;
+}
+
+body{
+        background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+}
+
+.conteudo{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome{
+    flex-direction: column;
+    padding: 10px;
+    border: none;
+    background-color: rgba(182, 182, 182, 0.564);
+}
