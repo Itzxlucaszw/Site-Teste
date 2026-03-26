@@ -82,3 +82,12 @@ input::placeholder{
     box-shadow: 0 0 10px var(--cor5);
 }
 
+.criarconta{
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+.novasenha{
+    color: var(--cor5);
+    text-decoration: none;
+}
