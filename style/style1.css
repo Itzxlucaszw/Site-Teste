@@ -1,15 +1,27 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --textprincipal: 'Roboto', sans-serif;
+    --texttitle: 'Montserrat', sans-serif;
+    --cor0: #000815;
+    --cor1: #00173D;
+    --cor2: #00235D;
+    --cor3: #003D76;
+    --cor4: #0165A0;
+    --cor5: #2191d2;
+}
 
 *{
     margin: 0;
 }
 
 body{
-        background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg);
-        height: 100vh;
-        background-position: center;
-        background-size: cover;
+    background-color: var(--cor1);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
 
 .conteudo{
@@ -21,9 +33,52 @@ body{
     text-align: center;
 }
 
-.nome{
+.title{
+    color: var(--cor4);
+    font-family: var(--texttitle);
+}
+
+.login-box{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px var(--cor0);
+    padding: 20px;
+}
+
+input{
+    background-color: var(--cor4);
     flex-direction: column;
+    margin: 10px;
     padding: 10px;
     border: none;
-    background-color: rgba(182, 182, 182, 0.564);
+    outline: none;
+    border-radius: 8px;
+    transition: box-shadow 0.5s ease;
 }
+
+input:hover{
+    box-shadow: 0 0 10px var(--cor5);
+}
+
+input::placeholder{
+    color: var(--cor3)
+}
+
+.pag1{
+    background-color: var(--cor3);
+    color: var(--cor4);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.4s ease, box-shadow 0.5s ease;
+
+}
+
+.pag1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px var(--cor5);
+}
+
