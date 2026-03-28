@@ -38,6 +38,11 @@ body{
     font-family: var(--texttitle);
 }
 
+.p1{
+    color: var(--cor4);
+    font-family: var(--textprincipal);
+}
+
 .login-box{
     background-color: var(--cor2);
     border-radius: 10px;
