@@ -18,6 +18,7 @@
 }
 
 body{
+    color: var(--cor4);
     background-color: var(--cor1);
     height: 100vh;
     background-position: center;
@@ -36,6 +37,11 @@ body{
 .title{
     color: var(--cor4);
     font-family: var(--texttitle);
+}
+
+.p1{
+    color: var(--cor4);
+    font-family: var(--textprincipal);
 }
 
 .login-box{
@@ -88,6 +94,11 @@ input::placeholder{
 }
 
 .novasenha{
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+.login{
     color: var(--cor5);
     text-decoration: none;
 }
